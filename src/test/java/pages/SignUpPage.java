@@ -51,7 +51,7 @@ public class SignUpPage {
 	}
 
 	//======================================Methods===============================
-	public void signup(String Emailval,String Passwordval,String FirstNameval,String LastNameval,String Ageval,String Addressval) throws InterruptedException {
+	public void signup(String Emailval,String Passwordval,String FirstNameval,String LastNameval,String Ageval,String Addressval){
 		
 		WebDriverWait wait = new WebDriverWait(driver,30);
 		wait.until(ExpectedConditions.visibilityOf(SignUpBtn));
@@ -66,8 +66,6 @@ public class SignUpPage {
 		Lastname.sendKeys(LastNameval);
 		Age.sendKeys(Ageval);
 		Address.sendKeys(Addressval);
-		
-		Thread.sleep(2000);
 		SignUpBtnLast.click();
 
 	}
