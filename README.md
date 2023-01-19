@@ -1,5 +1,6 @@
 # Website automation
 
-Tested login, signup pages
+Complete website automation using Selenium, Java and TestNG.
+Test Scripts for - Website login page, signup page , product area and checkout pages.
 
-Stack - java, selenium, maven, Testng, apache poi
+Stack - Java, Selenium Webdriver, Maven, Testng, JUnit, GIT.
